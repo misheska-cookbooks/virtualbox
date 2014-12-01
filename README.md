@@ -1,4 +1,5 @@
 # virtualbox
+[![wercker status](https://app.wercker.com/status/17e274e81334205f2f4e59ca04ce4e63/m "wercker status")](https://app.wercker.com/project/bykey/17e274e81334205f2f4e59ca04ce4e63)
 
 This cookbook installs the VirtualBox desktop virtualization software.
 NOTE: Currently only the Mac OS X platform is supported.
