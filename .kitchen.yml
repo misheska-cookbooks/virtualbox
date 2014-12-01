@@ -1,0 +1,19 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: osx1010
+    driver:
+      provider: vmware_fusion
+      box: osx1010
+      box_url: http://cdn.box-cutter.com/osx/vmware9.8.4/osx1010-nocm-1.0.1.box
+
+suites:
+  - name: default
+    run_list:
+      - recipe[virtualbox::default]
+    attributes:
