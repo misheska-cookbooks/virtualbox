@@ -1,0 +1,12 @@
+box: box-cutter/chefdk
+build:
+  steps:
+    - script:
+        name: run chefspec
+        code: rake spec
+    - script:
+        name: run foodcritic
+        code: rake foodcritic
+    - script:
+        name: run rubocop
+        code: rake rubocop
